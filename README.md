@@ -1,24 +1,22 @@
 # Vue Smooth DnD
 
-A fast and lightweight drag&drop, sortable library for Vue.js with many configuration options covering many d&d scenarios.
+一个为Vue.js提供快速、轻量的拖放、排序的库，有很多配置项涵盖大多数的拖放场景。
 
-This library consists wrapper Vue.js components over [smooth-dnd](https://github.com/kutlugsahin/smooth-dnd) library.
+## 示例
 
-## Demo
-
-View the demo here:
+示例:
 
 - https://kutlugsahin.github.io/vue-smooth-dnd
 
-## Installation
+## 安装
 
 ```shell
 npm i vue-smooth-dnd
 ```
 
-## Usage
+## 使用
 
-### Vue 
+### Vue代码 
 
 ```jsx
 <template>
@@ -57,12 +55,12 @@ export default {
 
 ## API: Container
 
-Component that contains the draggable elements or components. Each of its children should be wrapped by **Draggable** component
+包含可拖动元素或组件的组件。它的每个子级都应该由**Draggable**组件包装。
 
 
-## Properties
+## 属性
 
-Properties define the visual behaviour of the library:
+属性定义库的可视行为:
 
  |  Property  |  Type  |  Default  |  Description  | 
  |  -  |  :-:  |  :-:  |  -  | 
