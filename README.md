@@ -65,7 +65,7 @@ export default {
  |  属性  |  类型  |  默认值  |  描述  | 
  |  -  |  :-:  |  :-:  |  -  | 
  |  :orientation  | string | `vertical`  |  容器的方向。包含水平方向和竖直方向，可选值 **horizontal** or **vertical**. | 
- |  :behaviour | string | `move` |  Property to describe weather the dragging item will be moved or copied to target container. Can be **move** or **copy** or **drop-zone** or **contain**.
+ |  :behaviour | string | `move` |  此属性用来描述拖动项是否移动或复制到目标容器。 可选值 **move** or **copy** or **drop-zone** or **contain**.
  |  :tag | string or NodeDescription | `div` | *See descriptions below*
  |  :group-name | string | `undefined` | Draggables can be moved between the containers having the same group names. If not set container will not accept drags from outside. This behaviour can be overriden by shouldAcceptDrop function. See below.
  |  :lock-axis | string | `undefined` | Locks the movement axis of the dragging. Possible values are **x**, **y** or **undefined**.
